@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    padding: 5px;
+ background-color: #131a22;
+ height: 60px;
+ color: aliceblue;
+ display: flex;
+ justify-content: space-evenly;
+ 
+}
+.Login{
+    height: 42px;
+    padding: 0px 20px;
+}
+.nav-logo{
+    height: 50px;
+    padding: 1px 8px 0px 6px;
+    width: 120px;
+}
+.logo{
+    background-image: url(LOGO.png);
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white ;
+}
+.nav-addresss{
+    padding: 8px 9px 0px 0px;
+}
+.add0{
+    align-items: center;
+
+    height: 50px;
+    width: 130px;
+}
+.add1{
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 12px;
+
+}
+.add2{
+    font-size: 14px;
+}
+.add-icon{
+    align-items: center;
+    
+    display: flex;
+
+}
+.nav-search{
+    display: flex;
+    background-color: rgb(221, 172, 69);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F1111;
+}
+.box1{
+    font-size: 12px;
+}
+.box2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 35px;
+    padding-top: 5px;
+}
+.cart{
+    font-size: 14px;
+    font-weight: 700;
+}
+.flag i{
+    font-size: 35px;
+    padding-top: 5px;
+
+}
+.flag{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.panel{
+    align-items: center;
+    display: flex;
+    height: 39px;
+    background-color: #232f3e;
+    color: #ffffff;
+}
+.panel-ops p{
+    display: inline;
+}
+.panel-ops{
+    display:flex;
+    align-items: center;
+}
+.panel-all{
+    padding-top: 9px;
+    padding-left: 20px;
+    height: 28px;
+    width: 60px;
+}
+.Panel-box1{
+    padding-top: 9px;
+    height: 28px;
+    width: 120px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box2{
+    padding-top: 9px;
+    height: 28px;
+    width: 41px;
+    padding: 9px 9px 0px 0px;
+    
+}
+.Panel-box3{
+    padding-top: 9px;
+    height: 28px;
+    width: 96px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box4{
+    padding-top: 9px;
+    height: 28px;
+    width: 78px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box5{
+    padding-top: 9px;
+    height: 28px;
+    width: 81px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box6{
+    padding-top: 9px;
+    height: 28px;
+    width: 110px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box7{
+    padding-top: 9px;
+    height: 28px;
+    width: 79px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box8{
+    padding-top: 9px;
+    height: 28px;
+    width: 102px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box9{
+    padding-top: 9px;
+    height: 28px;
+    width: 260px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box10{
+    padding-top: 9px;
+    height: 28px;
+    width: 130px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box11{
+    padding-top: 9px;
+    height: 28px;
+    width: 130px;
+    padding: 9px 9px 0px 0px;
+}
+.Panel-box12{
+    padding-top: 9px;
+    height: 28px;
+    width: 170px;
+    padding: 9px 9px 0px 0px;
+
+}
+.hero-section{
+    background-image: url(Hero-Image.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.shop-section{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cacfce;
+}
+.dabba{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    color: rgb(30, 174, 126);
+}
+.dabba h2{
+    color: #0F1111;
+}
+.image1{
+    background-image: url(box1_image.jpg);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.image2{
+        background-image: url(box2_image.jpg);
+        height: 270px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+ 
+}
+.image3{
+    background-image: url(box3_image.jpg);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.image4{
+    background-image: url(box4_image.jpg);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.image5{
+    background-image: url(box5_image.jpg);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.image6{
+    background-image: url(box6_image.jpg);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.image7{
+    background-image: url(box7_image.jpg);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.image8{
+    background-image: url(box8_image.jpg);
+    height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.footer-pannel01{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-pannel02{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.footer-pannel02 ul{
+    color: #cacfce;
+    margin-top: 40px;
+}
+.footer-pannel02 p{
+    font-size: 20px;
+    
+}
+.footer-pannel02 ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin: 10px;
+}
+.footer-pannel03{
+    border-top: 0.5px solid white;
+    background-size: cover;
+    height: 70px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+.footer-logo{
+    background-image: url(logo02.png);
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+.fotter-pannel04{
+    height: 75px;
+    color:white ;
+    background-color: #131a22;
+    padding-top: 20px;
+}
+.pages{
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    display: flex;
+}
+.copy-right{
+    justify-content: center;
+    font-size: 0.7rem;
+    align-items: center;
+    display: flex;
+}
